@@ -1,0 +1,15 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        {% for d in data %}
+        <div>
+            <h2>{{ forloop.index }}. {{ d.name }} ({{ d.date }}) ★{{ d.rating }}</h2>
+            <img src="{{ d.poster }}">
+            <p>{{ d.duration }} min - {% for x in d.director %}{{ x }} {% endfor %}- {% for x in d.country %}{{ x }} {% endfor %}- {% for x in d.genre %}{{ x }} {% endfor %}- {% for x in d.actor %}{{ x }} {% endfor %}</p>
+            <p>{{ d.description }}</p>
+        </div>
+        {% endfor %}
+    </body>
+</html>

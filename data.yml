@@ -1,0 +1,283 @@
+- name: Parasite
+  imdb: tt6751668
+- name: The Dark Knight
+  imdb: tt0468569
+  tags:
+    - unpredictable
+- name: Upgrade
+  imdb: tt6499752
+  similar:
+    - Ex Machina
+  tags:
+    - surprise ending
+- name: Ex Machina
+  imdb: tt0470752
+  similar:
+    - Her
+    - Upgrade
+  tags:
+    - surprise ending
+- name: Inception
+  imdb: tt1375666
+- name: Her
+  imdb: tt1798709
+  similar:
+    - Ex Machina
+  tags:
+    - drama
+- name: The Platform
+  imdb: tt8228288
+  tags:
+    - dystopian
+    - influence me
+- name: The Prestige
+  imdb: tt0482571
+- name: The Shawshank Redemption
+  imdb: tt0111161
+- name: The Matrix
+  imdb: tt0133093
+- name: Joker
+  imdb: tt7286456
+- name: Everything Everywhere All at Once
+  imdb: tt6710474
+- name: Interstellar
+  imdb: tt0816692
+  tags:
+    - space
+    - time travel
+- name: "Terminator 2: Judgment Day"
+  imdb: tt0103064
+- name: Idiocracy
+  imdb: tt0387808
+  tags:
+    - dystopian
+    - influence world
+    - influence me
+    - comedy
+- name: Snowpiercer
+  imdb: tt1706620
+  tags:
+    - dystopian
+- name: Kingdom of Heaven
+  imdb: tt0320661
+  tag:
+    - history
+- name: Don't Look Up
+  imdb: tt11286314
+  tags:
+    - dystopian
+    - comedy
+- name: Green mile
+  imdb: tt0120689
+- name: "2001: A Space Odyssey"
+  imdb: tt0062622
+  tags:
+    - space
+- name: Primer
+  imdb: tt0390384
+  tags:
+    - time travel
+- name: Oldboy
+  imdb: tt0364569
+  tags:
+    - unpredictable
+- name: The Godfather
+  imdb: tt0068646
+- name: Se7en
+  imdb: tt0114369
+- name: One Flew Over the Cuckoo's Nest
+  imdb: tt0073486
+- name: Green Book
+  imdb: tt6966692
+  tags:
+    - anti racism
+    - comedy
+- name: Sherlock Holmes
+  imdb: tt0988045
+- name: Memento
+  imdb: tt0209144
+- name: Vertigo
+  imdb: tt0052357
+- name: Fight Club
+  imdb: tt0137523
+- name: The Silence of the Lambs
+  imdb: tt0102926
+- name: Full Metal Jacket
+  imdb: tt0093058
+- name: The Martian
+  imdb: tt3659388
+  tags:
+    - space
+  similar:
+    - Cast Away
+- name: Cast Away
+  imdb: tt0162222
+  similar:
+    - The Martian
+- name: Lawrence of Arabia
+  imdb: tt0056172
+  tags:
+    - history
+- name: Django Unchained
+  imdb: tt1853728
+- name: Tenet
+  imdb: tt6723592
+  tags:
+    - time travel
+- name: Dawn of the Planet of the Apes
+  imdb: tt2103281
+  tags:
+    - dystopian
+- name: The Departed
+  imdb: tt0407887
+- name: Gladiator
+  imdb: tt0172495
+- name: Metropolis
+  imdb: tt0017136
+  tags:
+    - dystopian
+  comment: |
+    به عنوان یه فیلم خیلی قدیمی جالب و مضحکه از نظر فیلم برداری و جلوه‌های ویژه
+    و داستانش تم دیستوپیایی و ضدسرمایه‌داری خوبی داره.
+- name: The Hunger Games
+  imdb: tt1392170
+  tags:
+    - dystopian
+- name: Back to the Future
+  imdb: tt0088763
+  tags:
+    - time travel
+- name: Ready Player One
+  imdb: tt1677720
+  tags:
+    - dystopian
+- name: 12 Angry Men
+  imdb: tt0050083
+- name: Murder on the Orient Express
+  imdb: tt3402236
+- name: Oppenheimer
+  imdb: tt15398776
+  tags:
+    - history
+- name: The Ballad of Buster Scruggs
+  imdb: tt6412452
+- name: Blade Runner
+  imdb: tt0083658
+- name: "Mission: Impossible - Dead Reckoning Part One"
+  imdb: tt9603212
+- name: Shutter Island
+  imdb: tt1130884
+- name: "Star Wars: Episode IV - A New Hope"
+  imdb: tt0076759
+- name: Civil War
+  imdb: tt17279496
+- name: The Secret of the Magic Gourd
+  imdb: tt0496386
+  tags:
+    - comedy
+  comment: |
+    دوبله فارسی فیلم رو یه سطح بالا برده
+- name: The Last Samurai
+  imdb: tt0325710
+  tags:
+    - anti colonialism
+    - history
+  comment: |
+    فیلم تلاش کرده ضداستعماری باشه ولی من کلا با هدف سامورایی‌ها ارتباط برقرار
+    نکردم.
+- name: "Léon: The Professional"
+  imdb: tt0110413
+- name: Apocalypse Now
+  imdb: tt0078788
+- name: The Wolf of Wall Street
+  imdb: tt0993846
+  tags:
+    - comedy
+- name: The Wizard of Oz
+  imdb: tt0032138
+  tags:
+    - book based
+    - history
+  comment: |
+    داستان از یه کتابه که توی کتاب هر چیزی از فیلم یه نماد
+    از رکود بزرگ تو امریکاست. مثلا
+    Oz
+    همون انس طلاست. رفرنس‌ها با این که خیلی واضحن ولی
+    یه آدم معمولی پیداشون نمی‌کنه و بدون اون‌ها فیلم یه
+    برنامه کودک مسخرست.
+- name: Tetris
+  imdb: tt12758060
+  tags:
+    - history
+- name: I, Daniel Blake
+  imdb: tt5168192
+- name: Fall
+  imdb: tt15325794
+- name: Soylent Green
+  imdb: tt0070723
+  tags:
+    - dystopian
+    - influence world
+- name: Chappie
+  imdb: tt1823672
+- name: Shoplifters
+  imdb: tt8075192
+- name: Moonfall
+  imdb: tt5834426
+- name: "The Lord of the Rings: The Fellowship of the Ring"
+  imdb: tt0120737
+  tags:
+    - book base
+- name: Titanic
+  imdb: tt0120338
+- name: Harry Potter and the Sorcerer's Stone
+  imdb: tt0241527
+  tags:
+    - book base
+- name: Gravity
+  imdb: tt1454468
+  tags:
+    - space
+- name: The Death of Stalin
+  imdb: tt4686844
+  tags:
+    - history
+- name: Sunshine
+  imdb: tt0448134
+  tags:
+    - space
+- name: As the Gods Will
+  imdb: tt3354222
+- name: Schindler's List
+  imdb: tt0108052
+  tags:
+    - history
+- name: "1984"
+  imdb: tt0087803
+  tags:
+    - dystopian
+    - book base
+- name: Killers of the Flower Moon
+  imdb: tt5537002
+- name: Annihilation
+  imdb: tt2798920
+- name: ET
+  imdb: tt0083866
+  tags:
+    - alien
+- name: Fahrenheit 451
+  imdb: tt0360556
+  tags:
+    - book base
+    - dystopian
+- name: Elysium
+  imdb: tt1535108
+  tags:
+    - dystopian
+  comment: |
+    موضوع فیلم دیستوپیایی و ضدسرمایه داری قرار بوده باشه ولی داستان فیلم
+    هیچی نداره. صرفا یه سری صحنه اکشن فضایی ضعیفه.
+- name: "Top Gun: Maverick"
+  imdb: tt1745960
+- name: Taxi Driver
+  imdb: tt0075314
