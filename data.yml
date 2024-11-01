@@ -143,6 +143,10 @@
   imdb: tt1392170
   tags:
     - dystopian
+- name: Whiplash
+  imdb: tt2582802
+  similar:
+    - Full Metal Jacket
 - name: Back to the Future
   imdb: tt0088763
   tags:
@@ -159,6 +163,8 @@
   imdb: tt15398776
   tags:
     - history
+- name: How to Make Millions Before Grandma Dies
+  imdb: tt31392609
 - name: The Ballad of Buster Scruggs
   imdb: tt6412452
 - name: Blade Runner

@@ -4,14 +4,14 @@ import json
 import traceback
 from imdb import IMDb
 from liquid import Template
+import os
 
 imdb = IMDb()
 
 with open('data.yml', 'r') as file:
     data = yaml.safe_load(file)
 
-with open('imdb_result.json', 'r') as file:
-    imdb_result = json.load(file)
+imdb_result = []
 
 for i in range(len(data)):
     print(i + 1, data[i]["name"])
@@ -43,7 +43,7 @@ def emit_imdb(from_idx):
                 "genre": movie["genre"],
                 "duration": movie["runtime"],
                 "director": [d["name"] for d in movie["director"]],
-                "actor": movie["stars"],
+                "actor": [], #movie["stars"],
                 "date": movie["original air date"],
             })
             # print(movie)
@@ -69,7 +69,7 @@ def emit_imdb(from_idx):
             print(movie)
             traceback.print_exc()
             break
-    with open('imdb_result.json', 'w') as file:
+    with open('dist/imdb_result.json', 'w') as file:
         json.dump(imdb_result, file)
                 
 
@@ -89,10 +89,11 @@ def generate_html():
     for x in imdb_result:
         x['date'] = x['date'].split()[2]
     html = template.render(data=imdb_result)
-    with open('result.html', 'w') as file:
+    with open('dist/index.html', 'w') as file:
         file.write(html)
 
-
+os.system("rm -rf dist")
+os.system("mkdir dist")
 sanity_check()
-#check_if_imdb_is_update()
-#generate_html()
+check_if_imdb_is_update()
+generate_html()
