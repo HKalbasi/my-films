@@ -139,10 +139,14 @@
   comment: |
     به عنوان یه فیلم خیلی قدیمی جالب و مضحکه از نظر فیلم برداری و جلوه‌های ویژه
     و داستانش تم دیستوپیایی و ضدسرمایه‌داری خوبی داره.
+- name: PK
+  imdb: tt2338151
 - name: The Hunger Games
   imdb: tt1392170
   tags:
     - dystopian
+- name: Marriage Story
+  imdb: tt7653254
 - name: Whiplash
   imdb: tt2582802
   similar:
@@ -155,6 +159,8 @@
   imdb: tt1677720
   tags:
     - dystopian
+- name: Eternal Sunshine of the Spotless Mind
+  imdb: tt0338013
 - name: 12 Angry Men
   imdb: tt0050083
 - name: Murder on the Orient Express
@@ -163,6 +169,8 @@
   imdb: tt15398776
   tags:
     - history
+- name: The Fountain
+  imdb: tt0414993
 - name: How to Make Millions Before Grandma Dies
   imdb: tt31392609
 - name: The Ballad of Buster Scruggs
@@ -215,6 +223,8 @@
   imdb: tt12758060
   tags:
     - history
+- name: Thelma
+  imdb: tt23778968
 - name: I, Daniel Blake
   imdb: tt5168192
 - name: Fall
@@ -224,6 +234,8 @@
   tags:
     - dystopian
     - influence world
+- name: 12th Fail
+  imdb: tt23849204
 - name: Chappie
   imdb: tt1823672
 - name: Shoplifters
