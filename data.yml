@@ -40,6 +40,8 @@
   imdb: tt7286456
 - name: Everything Everywhere All at Once
   imdb: tt6710474
+- name: The Handmaiden
+  imdb: tt4016934
 - name: Interstellar
   imdb: tt0816692
   tags:
@@ -114,6 +116,8 @@
   imdb: tt0162222
   similar:
     - The Martian
+- name: The Stanford Prison Experiment
+  imdb: tt0420293
 - name: Lawrence of Arabia
   imdb: tt0056172
   tags:
@@ -128,6 +132,8 @@
   imdb: tt2103281
   tags:
     - dystopian
+- name: A Fistful of Dollars
+  imdb: tt0058461
 - name: The Departed
   imdb: tt0407887
 - name: Gladiator
@@ -151,6 +157,8 @@
   imdb: tt2582802
   similar:
     - Full Metal Jacket
+- name: Fall
+  imdb: tt15325794
 - name: Back to the Future
   imdb: tt0088763
   tags:
@@ -159,16 +167,18 @@
   imdb: tt1677720
   tags:
     - dystopian
-- name: Eternal Sunshine of the Spotless Mind
-  imdb: tt0338013
 - name: 12 Angry Men
   imdb: tt0050083
 - name: Murder on the Orient Express
   imdb: tt3402236
+- name: Papillon
+  imdb: tt5093026
 - name: Oppenheimer
   imdb: tt15398776
   tags:
     - history
+- name: Eternal Sunshine of the Spotless Mind
+  imdb: tt0338013
 - name: The Fountain
   imdb: tt0414993
 - name: How to Make Millions Before Grandma Dies
@@ -227,8 +237,6 @@
   imdb: tt23778968
 - name: I, Daniel Blake
   imdb: tt5168192
-- name: Fall
-  imdb: tt15325794
 - name: Soylent Green
   imdb: tt0070723
   tags:
@@ -240,6 +248,8 @@
   imdb: tt1823672
 - name: Shoplifters
   imdb: tt8075192
+- name: Taken
+  imdb: tt0936501
 - name: Moonfall
   imdb: tt5834426
 - name: "The Lord of the Rings: The Fellowship of the Ring"
