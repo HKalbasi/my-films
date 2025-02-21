@@ -185,12 +185,6 @@
   imdb: tt4972582
 - name: Papillon
   imdb: tt5093026
-- name: Oppenheimer
-  imdb: tt15398776
-  tags:
-    - history
-- name: Magpie
-  imdb: tt20202324
 - name: Eternal Sunshine of the Spotless Mind
   imdb: tt0338013
 - name: The Fountain
@@ -207,8 +201,12 @@
   imdb: tt2866360
 - name: Shutter Island
   imdb: tt1130884
+- name: Dunkirk
+  imdb: tt5013056
 - name: "Star Wars: Episode IV - A New Hope"
   imdb: tt0076759
+- name: Magpie
+  imdb: tt20202324
 - name: Civil War
   imdb: tt17279496
 - name: The Secret of the Magic Gourd
@@ -247,6 +245,10 @@
     برنامه کودک مسخرست.
 - name: Tetris
   imdb: tt12758060
+  tags:
+    - history
+- name: Oppenheimer
+  imdb: tt15398776
   tags:
     - history
 - name: Thelma
