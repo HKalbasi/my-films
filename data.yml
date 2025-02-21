@@ -79,6 +79,8 @@
   imdb: tt0062622
   tags:
     - space
+- name: Insomnia
+  imdb: tt0278504
 - name: Primer
   imdb: tt0390384
   tags:
@@ -108,6 +110,8 @@
   imdb: tt0137523
 - name: The Game
   imdb: tt0119174
+- name: The Devil's Advocate
+  imdb: tt0118971
 - name: The Silence of the Lambs
   imdb: tt0102926
 - name: Full Metal Jacket
