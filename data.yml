@@ -36,8 +36,6 @@
   imdb: tt0111161
 - name: The Matrix
   imdb: tt0133093
-- name: Joker
-  imdb: tt7286456
 - name: Everything Everywhere All at Once
   imdb: tt6710474
 - name: Interstellar
@@ -47,6 +45,8 @@
     - time travel
 - name: The Handmaiden
   imdb: tt4016934
+- name: A Beautiful Mind
+  imdb: tt0268978
 - name: "Terminator 2: Judgment Day"
   imdb: tt0103064
 - name: Idiocracy
@@ -71,6 +71,8 @@
     - comedy
 - name: Source Code
   imdb: tt0945513
+- name: Joker
+  imdb: tt7286456
 - name: Andhadhun
   imdb: tt8108198
 - name: Green mile
