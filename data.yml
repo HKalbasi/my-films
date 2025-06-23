@@ -279,6 +279,8 @@
   imdb: tt15398776
   tags:
     - history
+- name: Equilibrium
+  imdb: tt0238380
 - name: Thelma
   imdb: tt23778968
 - name: I, Daniel Blake
@@ -357,3 +359,5 @@
   imdb: tt1745960
 - name: Taxi Driver
   imdb: tt0075314
+- name: General Commander
+  imdb: tt7043534
