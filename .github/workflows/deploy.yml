@@ -31,14 +31,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Install the latest version of rye
-        uses: eifinger/setup-rye@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Setup project
+        run: |
+          uv sync
       - name: Build the html files
         run: |
-          rye sync
-          rye run python build.py
+          uv run python build.py
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
