@@ -33,18 +33,29 @@ def emit_imdb(from_idx):
             # movie = imdb.get_by_id(item["imdb"])
             # movie = json.loads(movie)
             movie = imdb.get_movie(item["imdb"][2:])
+
+            # Safely get values with defaults for missing fields
+            country = movie.get("countries", ["N/A"])[0] if movie.get("countries") else "N/A"
+            poster = movie.get("cover url", movie.get("full-size cover url", ""))
+            plot = movie.get("plot", ["No description available."])[0] if movie.get("plot") else "No description available."
+            rating = movie.get("rating", "N/A")
+            genres = movie.get("genres", ["N/A"])
+            runtime = movie.get("runtimes", ["N/A"])[0] if movie.get("runtimes") else "N/A"
+            directors = [d.get("name", "Unknown") for d in movie.get("directors", [])] if movie.get("directors") else ["Unknown"]
+            original_air_date = movie.get("original air date", movie.get("year", "N/A"))
+
             imdb_result.append({
                 "imdb": item['imdb'],
-                "name": movie["title"],
-                "country": movie["country"],
-                "poster": movie["cover url"],
-                "description": movie["plot"][0],
-                "rating": movie["rating"],
-                "genre": movie["genre"],
-                "duration": movie["runtime"],
-                "director": [d["name"] for d in movie["director"]],
+                "name": movie.get("title", item["name"]),  # fallback to name from data.yml
+                "country": country,
+                "poster": poster,
+                "description": plot,
+                "rating": rating,
+                "genre": genres,
+                "duration": runtime,
+                "director": directors,
                 "actor": [], #movie["stars"],
-                "date": movie["original air date"],
+                "date": original_air_date,
             })
             # print(movie)
             # if "status" in movie and movie["status"] == 404:
@@ -65,8 +76,8 @@ def emit_imdb(from_idx):
             #         "director": [d["name"] for d in movie["director"]],
             #         "actor": [d["name"] for d in movie["actor"]],
             #     })
-        except:
-            print(movie)
+        except Exception as e:
+            print(f"Error processing {item['name']}: {str(e)}")
             traceback.print_exc()
             break
     with open('dist/imdb_result.json', 'w') as file:
@@ -87,7 +98,14 @@ def generate_html():
         template = file.read()
     template = Template(template)
     for x in imdb_result:
-        x['date'] = x['date'].split()[2]
+        # Handle date parsing more safely
+        if isinstance(x['date'], str) and x['date'] != 'N/A':
+            date_parts = x['date'].split()
+            if len(date_parts) >= 3:
+                x['date'] = date_parts[2]  # year is typically the third element
+            elif len(date_parts) == 1:
+                x['date'] = date_parts[0]  # if only year is provided
+        # If date is 'N/A' or not properly formatted, leave it as is
     html = template.render(data=imdb_result)
     with open('dist/index.html', 'w') as file:
         file.write(html)
