@@ -10,7 +10,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
       fhs = pkgs.buildFHSUserEnv {
         name = "fhs-shell";
-        targetPkgs = pkgs: [ pkgs.rye ];
+        targetPkgs = pkgs: [ pkgs.uv ];
       };
     in
     {
